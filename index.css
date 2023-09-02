@@ -1,0 +1,73 @@
+.outer {
+    margin: 20px 20px 20px 20px;
+    background-color: #F0F0F0;
+}
+
+.ani-back {
+    background-image: linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0)),url(images.png);
+    background-position: center;
+    background-size: cover;
+    height: 94vh;
+    width:0;
+    opacity:0;
+    -webkit-clip-path:polygon(0 0,75% 0,50% 100%,0 100%);
+    animation-name: to_right;
+    animation-duration: 3s;
+}
+
+@keyframes to_right {
+
+0% {
+   width: 0;
+   opacity: 0;
+}
+
+50% {
+    width: 50%;
+    opacity: 0.5;
+}
+
+100% {
+    width: 100%;
+    opacity: 1;
+}
+    
+}
+
+
+.head{
+    width: 95vw;
+    position:absolute;
+    text-align: right;
+    opacity: 0;
+    animation-name: to_top;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+}
+
+@keyframes to_top {
+ 
+    0% {
+        opacity: 0;
+    }
+    50% {
+       opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+
+
+}
+
+
+
+.h1{
+    font-size:65px;
+    margin-top:20%;
+    
+}
+.h2 {
+    font-size: 90px;
+    margin-top: 25%;
+}
