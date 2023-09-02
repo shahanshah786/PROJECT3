@@ -1,5 +1,5 @@
 # PROJECT4
-THIS IS MY THIRD PROJECT AND HERE USING HTML, CSS
+THIS IS MY THIRD PROJECT AND HERE USING HTML, CSS | this is simple design but here can see the behaviour is good then you open your website you see this behabiour goos and beautyful shiw your website this behavior |
 
 https://github.com/shahanshah786/PROJECT3/assets/126701251/d9973cca-7748-4c32-bac5-e4444f236958
 
